@@ -1,0 +1,25 @@
+.mainToolbar {
+  position: absolute;
+  font-family:sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: yellow;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.secToolbar {
+   padding-left: 20px;
+   position: absolute;
+   top: 10;
+   left: 200px;
+   right: 0;
+   height: 50px;
+   background-color: #9976d2;
+   color:black;
+}

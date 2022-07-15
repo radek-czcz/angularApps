@@ -1,0 +1,10 @@
+p {
+   padding: 7px;
+   background-color: yellow;
+   width: auto;
+   outline: solid;
+   outline-width: 1px;
+   /*border: solid black;*/
+   /*border-width: 2px;*/
+   box-sizing: content-box;
+}

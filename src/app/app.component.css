@@ -1,0 +1,6 @@
+.content {
+   position: absolute;
+   display:flex;
+   top: 70px;
+   width: 100vw;
+}
