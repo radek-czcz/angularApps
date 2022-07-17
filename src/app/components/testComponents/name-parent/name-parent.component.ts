@@ -14,4 +14,8 @@ export class NameParentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  buttonClick(){
+    this.realName = "bartek";
+  }
+
 }
