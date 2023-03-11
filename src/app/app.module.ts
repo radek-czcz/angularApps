@@ -16,6 +16,8 @@ import { NameParentComponent } from './components/testComponents/name-parent/nam
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { MainContentComponent } from './components/mainComponents/main-content/main-content.component';
+import { OutterCompComponent } from './components/2023/outter-comp/outter-comp.component';
+import { InnerCompComponent } from './components/2023/inner-comp/inner-comp.component';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import { MainContentComponent } from './components/mainComponents/main-content/m
     NameChildComponent,
    NameParentComponent,
    MainContentComponent,
+   OutterCompComponent,
+   InnerCompComponent,
   ],
   imports: [
     BrowserModule,

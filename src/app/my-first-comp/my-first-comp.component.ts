@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+  
 @Component({
   selector: 'app-my-first-comp',
   templateUrl: './my-first-comp.component.html',
