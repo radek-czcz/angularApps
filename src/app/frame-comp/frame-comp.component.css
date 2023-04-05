@@ -1,11 +1,11 @@
-p {
-   height: 100px;
-   width: 140px;
-   border: solid;
-   border-radius: 8px;
-   border-width: thin;
-   padding: 15px;
-   margin: 15px;
-   text-align: center;
-   background-color: #f9d5a6;
+p.title {
+  background-color: #abc;
+}
+
+p.desc {
+  background-color: #a1a1a1;
+}
+
+:host-context(p.title) {
+  font-style: italic;
 }

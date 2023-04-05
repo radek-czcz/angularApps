@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+//import { StarterClass } from './starter';
+import * as titles from './/components/mainComponents/main-content/main-content.titleAnddesc'
+import {titleAndDesc} from './/components/mainComponents/main-content/main-content.titleAnddesc'
 
-   console.log("browser loaded");
+let runner = titles.generator;
 
 @Component({
   selector: 'app-root',
@@ -8,17 +11,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css', './app.component2.css']
 })
 export class AppComponent {
-  title = 'hello-world';
-  buttonNames:String[] = [
-     'abc',
-     'bcd'
-];
 
-createButtons(){
-for (let nth:number=1;nth<this.buttonNames.length;nth++){
-   let name:String = this.buttonNames[nth];
-   console.log(name);
-}
-};
+  title = 'hello-world';
+
+  titAndDesc: titleAndDesc[] = runner;
 
 }

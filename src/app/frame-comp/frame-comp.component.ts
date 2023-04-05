@@ -1,4 +1,5 @@
-import {Component} from '@angular/core'
+import {Component, Input} from '@angular/core'
+import {titleAndDesc} from '../components/mainComponents/main-content/main-content.titleAnddesc'
 
 @Component({
 selector: 'frame-comp',
@@ -7,4 +8,7 @@ styleUrls: ['./frame-comp.component.css']
 })
 export class FrameComponent {
 
-} 
+  @Input()
+  someText = {} as titleAndDesc;
+
+}

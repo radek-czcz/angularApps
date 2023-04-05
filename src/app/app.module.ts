@@ -42,4 +42,7 @@ import { MainContentComponent } from './components/mainComponents/main-content/m
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+
+}
