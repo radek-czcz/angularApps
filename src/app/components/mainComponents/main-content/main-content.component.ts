@@ -13,14 +13,13 @@ let runner = titles.generator;
       <frame-comp [someText] = runner>
       </frame-comp>
    </div>
-   <div *ngIf="condition1; then temp1 else temp2"></div>
-   <ng-template #temp1>
+
+   <ng-template [ngIf]="!condition1" #temp1>
      <p>Radek</p>
    </ng-template>
-   <ng-template #temp2>
+   <ng-template [ngIf]="condition1" #temp2>
      <p>Kamila</p>
    </ng-template>
-   <button (click)="changeCond()" mat-button>Change<button>
   `,
   styleUrls: ['./main-content.component.css']
 })
