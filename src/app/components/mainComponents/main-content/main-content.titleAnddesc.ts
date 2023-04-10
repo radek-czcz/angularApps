@@ -21,10 +21,8 @@ export class titleAndDesc {
     titleAndDesc.listOfContent.forEach(inp => titleAndDesc.listOfTitles.push(new titleAndDesc(inp[0], inp[1])));
     return titleAndDesc.listOfTitles;
   }
-
-
-
 }
 
-  export var generator = titleAndDesc.generateAll();
-  export var list = titleAndDesc.listOfTitles;
+
+
+export var generator = titleAndDesc.generateAll();

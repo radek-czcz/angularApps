@@ -17,6 +17,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { MainContentComponent } from './components/mainComponents/main-content/main-content.component';
 import { ContentProjectionCompComponent } from './components/content-projection-comp/content-projection-comp.component';
+import { ButtonThatCreatesCompComponent } from './components/button-that-creates-comp/button-that-creates-comp.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { ContentProjectionCompComponent } from './components/content-projection-
    NameParentComponent,
    MainContentComponent,
    ContentProjectionCompComponent,
+   ButtonThatCreatesCompComponent,
   ],
   imports: [
     BrowserModule,
