@@ -13,11 +13,21 @@ let runner = titles.generator;
       <frame-comp [someText] = runner>
       </frame-comp>
    </div>
+   <div *ngIf="condition1; then temp1 else temp2"></div>
+   <ng-template #temp1>
+     <p>Radek</p>
+   </ng-template>
+   <ng-template #temp2>
+     <p>Kamila</p>
+   </ng-template>
+   <button (click)="changeCond()" mat-button>Change<button>
   `,
   styleUrls: ['./main-content.component.css']
 })
 
 export class MainContentComponent implements OnInit {
+
+  condition1: boolean = true
 
   @Input()
   someText: titleAndDesc[] = []
@@ -30,6 +40,10 @@ export class MainContentComponent implements OnInit {
 
       return textReduced;
    }
+
+  changeCond(): void {
+    this.condition1 = !this.condition1;
+  }
 
   constructor() {
   }
