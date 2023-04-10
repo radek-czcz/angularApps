@@ -1,7 +1,11 @@
-<div class = "welcome-m" *ngFor="let runner of someText">
+<!--<div class = "welcome-m" *ngFor="let runner of someText">
    <frame-comp [someText] = runner>
    </frame-comp>
-</div>
+</div>-->
+<ng-template ngFor let-runner [ngForOf]="someText">
+  <frame-comp [someText] = runner>
+  </frame-comp>
+</ng-template>
 <ng-template [ngIf]="!condition1" #temp1>
   <p>Radek</p>
 </ng-template>
