@@ -16,6 +16,7 @@ import { NameParentComponent } from './components/testComponents/name-parent/nam
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { MainContentComponent } from './components/mainComponents/main-content/main-content.component';
+import { ContentProjectionCompComponent } from './components/content-projection-comp/content-projection-comp.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { MainContentComponent } from './components/mainComponents/main-content/m
     NameChildComponent,
    NameParentComponent,
    MainContentComponent,
+   ContentProjectionCompComponent,
   ],
   imports: [
     BrowserModule,

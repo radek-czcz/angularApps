@@ -8,21 +8,7 @@ let runner = titles.generator;
 
 @Component({
   selector: 'app-main-content',
-  template: `
-   <div class = "welcome-m" *ngFor="let runner of someText">
-      <frame-comp [someText] = runner>
-      </frame-comp>
-   </div>
-   <ng-template [ngIf]="!condition1" #temp1>
-     <p>Radek</p>
-   </ng-template>
-   <ng-template [ngIf]="condition1" #temp2>
-     <p>Kamila</p>
-   </ng-template>
-   <button mat-button (click) ="condition1 = !condition1">
-   {{condition1 ? 'change to Kamila': 'change to Radek'}}
-   </button>
-  `,
+  templateUrl:'./main-content.component.html',
   styleUrls: ['./main-content.component.css']
 })
 
