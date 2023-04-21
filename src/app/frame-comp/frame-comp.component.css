@@ -3,7 +3,7 @@ p.title {
 }
 
 p.desc {
-  background-color: #a1a1a1;
+  background-color: #c3a1a1;
 }
 
 :host-context(p.title) {

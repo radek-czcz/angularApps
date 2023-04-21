@@ -41,8 +41,8 @@ export class MainContentComponent implements OnInit {
 
   addNewFrame(frame: titleAndDesc): void {
     this.someText.push(frame);
-    console.log(Object.getOwnPropertyNames(Array))
-    setTimeout(() => this.someText.pop(),1000);
+    /*setInterval(() => this.someText.pop(),2000);*/
+    console.log(Object.keys(this.someText));
   }
 
 }
