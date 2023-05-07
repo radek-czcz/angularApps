@@ -9,3 +9,7 @@ p.desc {
 :host-context(p.title) {
   font-style: italic;
 }
+
+p.title2 {
+  background-color: #3f46b8;
+}

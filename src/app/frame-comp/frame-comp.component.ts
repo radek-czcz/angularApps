@@ -9,6 +9,8 @@ styleUrls: ['./frame-comp.component.css']
 })
 export class FrameComponent implements OnInit, OnDestroy {
 
+  class2: boolean = false;
+
   @Input()
   someText = {} as titleAndDesc;
 
@@ -18,6 +20,10 @@ export class FrameComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     console.log('destroy frame');
+  }
+
+  changeClass(){
+    this.class2 = !this.class2;
   }
 
 }

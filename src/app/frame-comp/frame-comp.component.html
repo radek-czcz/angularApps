@@ -1,3 +1,4 @@
 <p>Frame new Frame</p>
-<p class = "title">{{someText.title}}</p>
+<p [ngClass] = "this.class2 ? 'title2' : 'title'">{{someText.title}}</p>
 <p class = 'desc'>{{someText.description}}</p>
+<input type="button" (click)="changeClass()" name="">
