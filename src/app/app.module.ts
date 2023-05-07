@@ -11,6 +11,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { MainContentComponent } from './components/mainComponents/main-content/main-content.component';
 import { ContentProjectionCompComponent } from './components/content-projection-comp/content-projection-comp.component';
 import { ButtonThatCreatesCompComponent } from './components/button-that-creates-comp/button-that-creates-comp.component';
+import { HighlightDirective } from './directives/highlight.directive';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ButtonThatCreatesCompComponent } from './components/button-that-creates
    MainContentComponent,
    ContentProjectionCompComponent,
    ButtonThatCreatesCompComponent,
+   HighlightDirective,
   ],
   imports: [
     BrowserModule,
